@@ -1,0 +1,13 @@
+E:\CsharpProjects\Project2\bin\Debug\netcoreapp3.1\Project2.exe
+E:\CsharpProjects\Project2\bin\Debug\netcoreapp3.1\Project2.deps.json
+E:\CsharpProjects\Project2\bin\Debug\netcoreapp3.1\Project2.runtimeconfig.json
+E:\CsharpProjects\Project2\bin\Debug\netcoreapp3.1\Project2.runtimeconfig.dev.json
+E:\CsharpProjects\Project2\bin\Debug\netcoreapp3.1\Project2.dll
+E:\CsharpProjects\Project2\bin\Debug\netcoreapp3.1\Project2.pdb
+E:\CsharpProjects\Project2\obj\Debug\netcoreapp3.1\Project2.csprojAssemblyReference.cache
+E:\CsharpProjects\Project2\obj\Debug\netcoreapp3.1\Project2.AssemblyInfoInputs.cache
+E:\CsharpProjects\Project2\obj\Debug\netcoreapp3.1\Project2.AssemblyInfo.cs
+E:\CsharpProjects\Project2\obj\Debug\netcoreapp3.1\Project2.csproj.CoreCompileInputs.cache
+E:\CsharpProjects\Project2\obj\Debug\netcoreapp3.1\Project2.dll
+E:\CsharpProjects\Project2\obj\Debug\netcoreapp3.1\Project2.pdb
+E:\CsharpProjects\Project2\obj\Debug\netcoreapp3.1\Project2.genruntimeconfig.cache
