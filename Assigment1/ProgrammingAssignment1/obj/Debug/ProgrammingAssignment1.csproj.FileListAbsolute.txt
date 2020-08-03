@@ -12,3 +12,10 @@ C:\Users\azimd\OneDrive\Рабочий стол\Assigment1\ProgrammingAssignment
 C:\Users\azimd\OneDrive\Рабочий стол\Assigment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csproj.CoreCompileInputs.cache
 C:\Users\azimd\OneDrive\Рабочий стол\Assigment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.exe
 C:\Users\azimd\OneDrive\Рабочий стол\Assigment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.pdb
+E:\CsharpProjects\Assigment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe.config
+E:\CsharpProjects\Assigment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe
+E:\CsharpProjects\Assigment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.pdb
+E:\CsharpProjects\Assigment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csprojAssemblyReference.cache
+E:\CsharpProjects\Assigment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csproj.CoreCompileInputs.cache
+E:\CsharpProjects\Assigment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.exe
+E:\CsharpProjects\Assigment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.pdb

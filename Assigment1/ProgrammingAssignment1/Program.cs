@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -39,7 +40,11 @@ namespace ProgrammingAssignment1
                 // and the comment below. You can of
                 // course add more space between the
                 // comments as needed
-
+                float difference_X = point2X - point1X;
+                float difference_Y = point2Y - point1Y;
+                float distance = (float)Math.Sqrt(difference_X * difference_X + difference_Y * difference_Y);
+                float angle = (float)Math.Atan2(difference_Y , difference_X) * 180 / (float)Math.PI;
+                Console.WriteLine(distance + " " + angle);
 
 
                 // Don't add or modify any code below
