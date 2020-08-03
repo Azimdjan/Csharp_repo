@@ -12,6 +12,7 @@ namespace Project3
             Console.WriteLine("Cosine of " + degree + " is " + cosine);
             float sinus = (float)Math.Sin(degree * Math.PI / 180);
             Console.WriteLine("Sinus of " + degree + " is " + sinus);
+            Console.Write("Hello World!");
             Console.WriteLine();
         }
     }
