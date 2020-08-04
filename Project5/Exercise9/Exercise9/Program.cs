@@ -18,12 +18,20 @@ namespace Exercise9
         static void Main(string[] args)
         {
             // create a new deck and tell the deck to print itself
-
+            Deck deck = new Deck();
+            deck.Print();
+            Console.WriteLine();
             // tell the deck to shuffle and print itself
+            deck.Shuffle();
+            deck.Print();
 
+            Console.WriteLine();
             // take the top card from the deck and print the card rank and suit
-
+            Card card1 = deck.TakeTopCard();
+            Console.WriteLine("Card rank is: " + card1.Rank+" "+card1.Suit);
             // take the top card from the deck and print the card rank and suit
+            Card card2 = deck.TakeTopCard();
+            Console.WriteLine("Card rank is: " + card2.Rank + " " + card2.Suit);
         }
     }
 }

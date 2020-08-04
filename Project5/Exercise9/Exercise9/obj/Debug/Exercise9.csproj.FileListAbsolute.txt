@@ -4,3 +4,10 @@ c:\users\albert\documents\visual studio 2017\Projects\Exercise9\Exercise9\bin\De
 c:\users\albert\documents\visual studio 2017\Projects\Exercise9\Exercise9\obj\Debug\Exercise9.csprojResolveAssemblyReference.cache
 c:\users\albert\documents\visual studio 2017\Projects\Exercise9\Exercise9\obj\Debug\Exercise9.exe
 c:\users\albert\documents\visual studio 2017\Projects\Exercise9\Exercise9\obj\Debug\Exercise9.pdb
+E:\CsharpProjects\Project5\Exercise9\Exercise9\bin\Debug\Exercise9.exe.config
+E:\CsharpProjects\Project5\Exercise9\Exercise9\bin\Debug\Exercise9.exe
+E:\CsharpProjects\Project5\Exercise9\Exercise9\bin\Debug\Exercise9.pdb
+E:\CsharpProjects\Project5\Exercise9\Exercise9\obj\Debug\Exercise9.csprojAssemblyReference.cache
+E:\CsharpProjects\Project5\Exercise9\Exercise9\obj\Debug\Exercise9.csproj.CoreCompileInputs.cache
+E:\CsharpProjects\Project5\Exercise9\Exercise9\obj\Debug\Exercise9.exe
+E:\CsharpProjects\Project5\Exercise9\Exercise9\obj\Debug\Exercise9.pdb
