@@ -1,0 +1,13 @@
+E:\CsharpProjects\project7\bin\Debug\netcoreapp3.1\project7.exe
+E:\CsharpProjects\project7\bin\Debug\netcoreapp3.1\project7.deps.json
+E:\CsharpProjects\project7\bin\Debug\netcoreapp3.1\project7.runtimeconfig.json
+E:\CsharpProjects\project7\bin\Debug\netcoreapp3.1\project7.runtimeconfig.dev.json
+E:\CsharpProjects\project7\bin\Debug\netcoreapp3.1\project7.dll
+E:\CsharpProjects\project7\bin\Debug\netcoreapp3.1\project7.pdb
+E:\CsharpProjects\project7\obj\Debug\netcoreapp3.1\project7.csprojAssemblyReference.cache
+E:\CsharpProjects\project7\obj\Debug\netcoreapp3.1\project7.AssemblyInfoInputs.cache
+E:\CsharpProjects\project7\obj\Debug\netcoreapp3.1\project7.AssemblyInfo.cs
+E:\CsharpProjects\project7\obj\Debug\netcoreapp3.1\project7.csproj.CoreCompileInputs.cache
+E:\CsharpProjects\project7\obj\Debug\netcoreapp3.1\project7.dll
+E:\CsharpProjects\project7\obj\Debug\netcoreapp3.1\project7.pdb
+E:\CsharpProjects\project7\obj\Debug\netcoreapp3.1\project7.genruntimeconfig.cache
