@@ -40,12 +40,16 @@ public class TeddyBear : MonoBehaviour
     /// <summary>
     /// Update is called once per frame
     /// </summary>
-    void Update()
-    {
-		// kill teddy bear if death timer finished
+ //   void Update()
+ //   {
+	//	// kill teddy bear if death timer finished
+ //       if(deathTimer.Finished)
+ //       {
+ //           Instantiate<GameObject>(prefabExplosion, transform.position, Quaternion.identity);
+ //           Destroy(gameObject);
+ //       }
 
-	}
-
+	//}
     /// <summary>
     /// Checks whether or not to blow up
     /// </summary>
@@ -54,7 +58,8 @@ public class TeddyBear : MonoBehaviour
     {
         // only blow up when colliding with a teddy bear
         if (coll.gameObject.tag == "TeddyBear") {
-
+            Instantiate<GameObject>(prefabExplosion, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
     }
 }
