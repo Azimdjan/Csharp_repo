@@ -10,6 +10,7 @@ public class CharacterChanger : MonoBehaviour
     [SerializeField] GameObject thirdObject;
     const int Max = 3;
     GameObject currentObject;
+    private bool isChanged = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,23 +19,31 @@ public class CharacterChanger : MonoBehaviour
 
     private void ChangePrefab()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetAxis("ChangeCharacter") > 0)
         {
-            Vector2 currentPosition = currentObject.transform.position;
-            Destroy(currentObject);
-            int currentPrefab = Random.Range(0, Max);
-            if (currentPrefab == 0)
+            if (!isChanged)
             {
-                currentObject = Instantiate<GameObject>(firstObject, currentPosition, Quaternion.identity) as GameObject;
+                isChanged = true;
+                Vector2 currentPosition = currentObject.transform.position;
+                Destroy(currentObject);
+                int currentPrefab = Random.Range(0, Max);
+                if (currentPrefab == 0)
+                {
+                    currentObject = Instantiate<GameObject>(firstObject, currentPosition, Quaternion.identity) as GameObject;
+                }
+                else if (currentPrefab == 1)
+                {
+                    currentObject = Instantiate<GameObject>(secondObject, currentPosition, Quaternion.identity) as GameObject;
+                }
+                else if (currentPrefab == 2)
+                {
+                    currentObject = Instantiate<GameObject>(thirdObject, currentPosition, Quaternion.identity) as GameObject;
+                }
             }
-            else if (currentPrefab == 1)
-            {
-                currentObject = Instantiate<GameObject>(secondObject, currentPosition, Quaternion.identity) as GameObject;
-            }
-            else if (currentPrefab == 2)
-            {
-                currentObject = Instantiate<GameObject>(thirdObject, currentPosition, Quaternion.identity) as GameObject;
-            }
+        }
+        else
+        {
+            isChanged = false;
         }
     }
     // Update is called once per frame
