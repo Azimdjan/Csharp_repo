@@ -1,0 +1,15 @@
+E:\CsharpProjects\Project9\bin\Debug\netcoreapp3.1\Project9.exe
+E:\CsharpProjects\Project9\bin\Debug\netcoreapp3.1\Project9.deps.json
+E:\CsharpProjects\Project9\bin\Debug\netcoreapp3.1\Project9.runtimeconfig.json
+E:\CsharpProjects\Project9\bin\Debug\netcoreapp3.1\Project9.runtimeconfig.dev.json
+E:\CsharpProjects\Project9\bin\Debug\netcoreapp3.1\Project9.dll
+E:\CsharpProjects\Project9\bin\Debug\netcoreapp3.1\Project9.pdb
+E:\CsharpProjects\Project9\bin\Debug\netcoreapp3.1\ConsoleCards.dll
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.csprojAssemblyReference.cache
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.AssemblyInfoInputs.cache
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.AssemblyInfo.cs
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.csproj.CoreCompileInputs.cache
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.csproj.CopyComplete
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.dll
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.pdb
+E:\CsharpProjects\Project9\obj\Debug\netcoreapp3.1\Project9.genruntimeconfig.cache

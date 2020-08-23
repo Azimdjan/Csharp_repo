@@ -1,0 +1,13 @@
+E:\CsharpProjects\Project8\bin\Debug\netcoreapp3.1\Project8.exe
+E:\CsharpProjects\Project8\bin\Debug\netcoreapp3.1\Project8.deps.json
+E:\CsharpProjects\Project8\bin\Debug\netcoreapp3.1\Project8.runtimeconfig.json
+E:\CsharpProjects\Project8\bin\Debug\netcoreapp3.1\Project8.runtimeconfig.dev.json
+E:\CsharpProjects\Project8\bin\Debug\netcoreapp3.1\Project8.dll
+E:\CsharpProjects\Project8\bin\Debug\netcoreapp3.1\Project8.pdb
+E:\CsharpProjects\Project8\obj\Debug\netcoreapp3.1\Project8.csprojAssemblyReference.cache
+E:\CsharpProjects\Project8\obj\Debug\netcoreapp3.1\Project8.AssemblyInfoInputs.cache
+E:\CsharpProjects\Project8\obj\Debug\netcoreapp3.1\Project8.AssemblyInfo.cs
+E:\CsharpProjects\Project8\obj\Debug\netcoreapp3.1\Project8.csproj.CoreCompileInputs.cache
+E:\CsharpProjects\Project8\obj\Debug\netcoreapp3.1\Project8.dll
+E:\CsharpProjects\Project8\obj\Debug\netcoreapp3.1\Project8.pdb
+E:\CsharpProjects\Project8\obj\Debug\netcoreapp3.1\Project8.genruntimeconfig.cache
