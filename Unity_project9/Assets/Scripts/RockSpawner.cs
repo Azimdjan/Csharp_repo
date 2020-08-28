@@ -5,75 +5,48 @@ using UnityEngine;
 public class RockSpawner : MonoBehaviour
 {
     [SerializeField] GameObject rockPrefab;
-    [SerializeField] Sprite[] sprites;
-    private SpriteRenderer sprite;
-    private GameObject[] rocks;
-    [SerializeField] int numberRocks;
-    private bool isSpawning = false;
-    Timer spawnTimer;
-    const float spawnTime = 1f;
-    private float spawnLocationX;
-    private float spawnLocationY;
-    private int option = 3;
-    // Start is called before the first frame update
-    private void Awake()
+    [SerializeField] Sprite[] rocks;
+    Vector2 spawningPos;
+    Vector2 worldSpawningPos;
+    const float totalTime = 1f;
+    Timer timer;
+    private void Start()
     {
-        spawnTimer = gameObject.AddComponent<Timer>();
+        timer = GetComponent<Timer>();
+        spawningPos = new Vector2(Screen.width / 2, Screen.height / 2);
+        worldSpawningPos = Camera.main.ScreenToWorldPoint(spawningPos);
+        timer.Duration = totalTime;
+        timer.Run();
     }
 
-    void Start()
+    private void SpawnRocks()
     {
-        Instantiating();
-        SettingTimer();
-        CreatingLocation();
-    }
-
-    private void SettingTimer()
-    {
-        spawnTimer.Duration = spawnTime;
-        spawnTimer.Run();
-    }
-
-    private void Instantiating()
-    {
-        rocks = GameObject.FindGameObjectsWithTag("Rock");
-        numberRocks = rocks.Length;
-    }
-
-    private void CreatingLocation()
-    {
-        spawnLocationX = Screen.width / 2;
-        spawnLocationY = Screen.height / 2;
-    }
-
-    private void SpawningRocks()
-    {
-        Vector2 location = new Vector2(spawnLocationX, spawnLocationY);
-        Vector2 worldLocation = Camera.main.ScreenToWorldPoint(location);
-        ChangingSprite();
-        GameObject currentRock = Instantiate<GameObject>(rockPrefab) as GameObject;
-        currentRock.transform.position = worldLocation;
-    }
-
-    private void ChangingSprite()
-    {
-        int currentSprite = Random.Range(0, option);
-        rockPrefab.GetComponent<SpriteRenderer>().sprite = sprites[currentSprite];
-    }
-
-    private void SpawningWithDelay()
-    {
-        if(spawnTimer.Finished&&numberRocks<3)
+        if(timer.Finished)
         {
-            SpawningRocks();
-            spawnTimer.Duration = spawnTime;
-            spawnTimer.Run();
+            int currentSprite = Random.Range(0, rocks.Length);
+            SpriteRenderer spriteRenderer = rockPrefab.GetComponent<SpriteRenderer>();
+            spriteRenderer.sprite= rocks[currentSprite];
+            if(spriteRenderer.sprite==rocks[0])
+            {
+                rockPrefab.tag = RockColor.green.ToString();
+            }
+            else if(spriteRenderer.sprite==rocks[1])
+            {
+                rockPrefab.tag = RockColor.red.ToString();
+            }
+            else if(spriteRenderer.sprite==rocks[2])
+            {
+                rockPrefab.tag = RockColor.white.ToString();
+            }
+            GameObject myobject= Instantiate<GameObject>(rockPrefab) as GameObject;
+            myobject.transform.position = worldSpawningPos;
+            timer.Duration = totalTime;
+            timer.Run();
         }
     }
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
-        Instantiating();
-        SpawningWithDelay();
+        SpawnRocks();
     }
 }
